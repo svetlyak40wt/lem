@@ -5,7 +5,7 @@
           execute-command
           apropos-command))
 
-(define-key *global-keymap* "C-x ?" 'describe-key)
+(define-key *global-keymap* "C-? k" 'describe-key)
 ;; Unable to use this binding because C-h is used by 'delete-previous-char
 ;; (define-key *global-keymap* "C-h k" 'describe-key)
 (define-command describe-key () ()
